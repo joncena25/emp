@@ -1,0 +1,28 @@
+//program to use string class methods
+package str;
+public class Str {
+    private static String input;
+    public static void main(String[] args) { 
+        
+        String str1 = "Hello Java";
+        String str2 = new String("Hello World");
+
+        System.out.println("str1: " + str1);
+        System.out.println("str2: " + str2);
+
+        
+        System.out.println("\n--- String Methods ---");
+        System.out.println("Length of str1: " + str1.length());
+        System.out.println("Character at index 4 in str1: " + str1.charAt(4));
+        System.out.println("Is str1 empty? " + str1.isEmpty());
+        
+        System.out.println("***Methods of 2nd string with cases***");
+        
+        System.out.println("str2 in uppercase: " + str2.toUpperCase());
+        System.out.println("str2 in lowercase: " + str2.toLowerCase());
+
+   
+
+    }
+    
+}
