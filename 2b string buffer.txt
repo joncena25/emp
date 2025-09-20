@@ -1,0 +1,27 @@
+//program to use string buffer
+package stringbufferdemo;
+public class StringBufferDemo {
+
+   
+    public static void main(String[] args) {
+         
+        StringBuffer sb = new StringBuffer("Hello java");
+        System.out.println("Initial StringBuffer: " + sb); 
+        sb.append(" World");
+        System.out.println("After append: " + sb); 
+        sb.insert(5, ", Java"); 
+        System.out.println("After insert: " + sb); 
+        sb.delete(6, 11);
+        System.out.println("After delete: " + sb); 
+        sb.reverse();
+        System.out.println("After reverse: " + sb); 
+        sb.replace(0, 5, "Good");
+        System.out.println("After replace: " + sb);
+        System.out.println("Length of StringBuffer: " + sb.length());
+        System.out.println("delete of strting replace: "+sb);
+       StringBuffer delete = sb.delete(0, 4);
+       
+        
+    }
+    
+}
